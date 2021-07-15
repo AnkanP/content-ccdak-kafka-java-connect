@@ -12,7 +12,7 @@ public class Main {
         //java properties object for properties class
         Properties props = new Properties();
 
-        props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,"172.31.105.172:9092");
+        props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,"172.31.105.172:30082");
         props.put(ProducerConfig.ACKS_CONFIG,"all");
         props.put(ProducerConfig.RETRIES_CONFIG,0);
         props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
